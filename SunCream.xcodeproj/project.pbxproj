@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDC48E152C3D95B400F59221 /* SunCreamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC48E142C3D95B400F59221 /* SunCreamApp.swift */; };
+		DDC48E172C3D95B400F59221 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC48E162C3D95B400F59221 /* ContentView.swift */; };
+		DDC48E192C3D95B500F59221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC48E182C3D95B500F59221 /* Assets.xcassets */; };
+		DDC48E1C2C3D95B500F59221 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC48E1B2C3D95B500F59221 /* Preview Assets.xcassets */; };
+		DDC48E262C3D95B500F59221 /* SunCreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC48E252C3D95B500F59221 /* SunCreamTests.swift */; };
+		DDC48E302C3D95B500F59221 /* SunCreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC48E2F2C3D95B500F59221 /* SunCreamUITests.swift */; };
+		DDC48E322C3D95B500F59221 /* SunCreamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC48E312C3D95B500F59221 /* SunCreamUITestsLaunchTests.swift */; };
+		DDC48E3F2C3D965500F59221 /* LocationDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC48E3E2C3D965500F59221 /* LocationDataManager.swift */; };
+		DDC48E452C46BA0300F59221 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC48E442C46BA0300F59221 /* LocationManager.swift */; };
+		DDC48E472C46BA1900F59221 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC48E462C46BA1900F59221 /* WeatherManager.swift */; };
+		DDC48E492C46BA2D00F59221 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC48E482C46BA2D00F59221 /* NotificationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDC48E222C3D95B500F59221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDC48E092C3D95B400F59221 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDC48E102C3D95B400F59221;
+			remoteInfo = SunCream;
+		};
+		DDC48E2C2C3D95B500F59221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDC48E092C3D95B400F59221 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDC48E102C3D95B400F59221;
+			remoteInfo = SunCream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDC48E112C3D95B400F59221 /* SunCream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunCream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC48E142C3D95B400F59221 /* SunCreamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunCreamApp.swift; sourceTree = "<group>"; };
+		DDC48E162C3D95B400F59221 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DDC48E182C3D95B500F59221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDC48E1B2C3D95B500F59221 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDC48E212C3D95B500F59221 /* SunCreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunCreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC48E252C3D95B500F59221 /* SunCreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunCreamTests.swift; sourceTree = "<group>"; };
+		DDC48E2B2C3D95B500F59221 /* SunCreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunCreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC48E2F2C3D95B500F59221 /* SunCreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunCreamUITests.swift; sourceTree = "<group>"; };
+		DDC48E312C3D95B500F59221 /* SunCreamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunCreamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DDC48E3E2C3D965500F59221 /* LocationDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDataManager.swift; sourceTree = "<group>"; };
+		DDC48E402C3E938500F59221 /* SunCream.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SunCream.entitlements; sourceTree = "<group>"; };
+		DDC48E412C3ED11A00F59221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DDC48E442C46BA0300F59221 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		DDC48E462C46BA1900F59221 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		DDC48E482C46BA2D00F59221 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDC48E0E2C3D95B400F59221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC48E1E2C3D95B500F59221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC48E282C3D95B500F59221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDC48E082C3D95B400F59221 = {
+			isa = PBXGroup;
+			children = (
+				DDC48E132C3D95B400F59221 /* SunCream */,
+				DDC48E242C3D95B500F59221 /* SunCreamTests */,
+				DDC48E2E2C3D95B500F59221 /* SunCreamUITests */,
+				DDC48E122C3D95B400F59221 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDC48E122C3D95B400F59221 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDC48E112C3D95B400F59221 /* SunCream.app */,
+				DDC48E212C3D95B500F59221 /* SunCreamTests.xctest */,
+				DDC48E2B2C3D95B500F59221 /* SunCreamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDC48E132C3D95B400F59221 /* SunCream */ = {
+			isa = PBXGroup;
+			children = (
+				DDC48E412C3ED11A00F59221 /* Info.plist */,
+				DDC48E402C3E938500F59221 /* SunCream.entitlements */,
+				DDC48E142C3D95B400F59221 /* SunCreamApp.swift */,
+				DDC48E162C3D95B400F59221 /* ContentView.swift */,
+				DDC48E442C46BA0300F59221 /* LocationManager.swift */,
+				DDC48E3E2C3D965500F59221 /* LocationDataManager.swift */,
+				DDC48E462C46BA1900F59221 /* WeatherManager.swift */,
+				DDC48E482C46BA2D00F59221 /* NotificationManager.swift */,
+				DDC48E182C3D95B500F59221 /* Assets.xcassets */,
+				DDC48E1A2C3D95B500F59221 /* Preview Content */,
+			);
+			path = SunCream;
+			sourceTree = "<group>";
+		};
+		DDC48E1A2C3D95B500F59221 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DDC48E1B2C3D95B500F59221 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DDC48E242C3D95B500F59221 /* SunCreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDC48E252C3D95B500F59221 /* SunCreamTests.swift */,
+			);
+			path = SunCreamTests;
+			sourceTree = "<group>";
+		};
+		DDC48E2E2C3D95B500F59221 /* SunCreamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDC48E2F2C3D95B500F59221 /* SunCreamUITests.swift */,
+				DDC48E312C3D95B500F59221 /* SunCreamUITestsLaunchTests.swift */,
+			);
+			path = SunCreamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDC48E102C3D95B400F59221 /* SunCream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC48E352C3D95B500F59221 /* Build configuration list for PBXNativeTarget "SunCream" */;
+			buildPhases = (
+				DDC48E0D2C3D95B400F59221 /* Sources */,
+				DDC48E0E2C3D95B400F59221 /* Frameworks */,
+				DDC48E0F2C3D95B400F59221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunCream;
+			productName = SunCream;
+			productReference = DDC48E112C3D95B400F59221 /* SunCream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDC48E202C3D95B500F59221 /* SunCreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC48E382C3D95B500F59221 /* Build configuration list for PBXNativeTarget "SunCreamTests" */;
+			buildPhases = (
+				DDC48E1D2C3D95B500F59221 /* Sources */,
+				DDC48E1E2C3D95B500F59221 /* Frameworks */,
+				DDC48E1F2C3D95B500F59221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDC48E232C3D95B500F59221 /* PBXTargetDependency */,
+			);
+			name = SunCreamTests;
+			productName = SunCreamTests;
+			productReference = DDC48E212C3D95B500F59221 /* SunCreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDC48E2A2C3D95B500F59221 /* SunCreamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC48E3B2C3D95B500F59221 /* Build configuration list for PBXNativeTarget "SunCreamUITests" */;
+			buildPhases = (
+				DDC48E272C3D95B500F59221 /* Sources */,
+				DDC48E282C3D95B500F59221 /* Frameworks */,
+				DDC48E292C3D95B500F59221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDC48E2D2C3D95B500F59221 /* PBXTargetDependency */,
+			);
+			name = SunCreamUITests;
+			productName = SunCreamUITests;
+			productReference = DDC48E2B2C3D95B500F59221 /* SunCreamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDC48E092C3D95B400F59221 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					DDC48E102C3D95B400F59221 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					DDC48E202C3D95B500F59221 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DDC48E102C3D95B400F59221;
+					};
+					DDC48E2A2C3D95B500F59221 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DDC48E102C3D95B400F59221;
+					};
+				};
+			};
+			buildConfigurationList = DDC48E0C2C3D95B400F59221 /* Build configuration list for PBXProject "SunCream" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDC48E082C3D95B400F59221;
+			productRefGroup = DDC48E122C3D95B400F59221 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDC48E102C3D95B400F59221 /* SunCream */,
+				DDC48E202C3D95B500F59221 /* SunCreamTests */,
+				DDC48E2A2C3D95B500F59221 /* SunCreamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDC48E0F2C3D95B400F59221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC48E1C2C3D95B500F59221 /* Preview Assets.xcassets in Resources */,
+				DDC48E192C3D95B500F59221 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC48E1F2C3D95B500F59221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC48E292C3D95B500F59221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDC48E0D2C3D95B400F59221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC48E492C46BA2D00F59221 /* NotificationManager.swift in Sources */,
+				DDC48E452C46BA0300F59221 /* LocationManager.swift in Sources */,
+				DDC48E172C3D95B400F59221 /* ContentView.swift in Sources */,
+				DDC48E472C46BA1900F59221 /* WeatherManager.swift in Sources */,
+				DDC48E3F2C3D965500F59221 /* LocationDataManager.swift in Sources */,
+				DDC48E152C3D95B400F59221 /* SunCreamApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC48E1D2C3D95B500F59221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC48E262C3D95B500F59221 /* SunCreamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC48E272C3D95B500F59221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC48E322C3D95B500F59221 /* SunCreamUITestsLaunchTests.swift in Sources */,
+				DDC48E302C3D95B500F59221 /* SunCreamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDC48E232C3D95B500F59221 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDC48E102C3D95B400F59221 /* SunCream */;
+			targetProxy = DDC48E222C3D95B500F59221 /* PBXContainerItemProxy */;
+		};
+		DDC48E2D2C3D95B500F59221 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDC48E102C3D95B400F59221 /* SunCream */;
+			targetProxy = DDC48E2C2C3D95B500F59221 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DDC48E332C3D95B500F59221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDC48E342C3D95B500F59221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDC48E362C3D95B500F59221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SunCream/SunCream.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SunCream/Preview Content\"";
+				DEVELOPMENT_TEAM = KV3J8HNQRM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SunCream/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = squirrel.SunCream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDC48E372C3D95B500F59221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SunCream/SunCream.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SunCream/Preview Content\"";
+				DEVELOPMENT_TEAM = KV3J8HNQRM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SunCream/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = squirrel.SunCream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDC48E392C3D95B500F59221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = squirrel.SunCreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunCream.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SunCream";
+			};
+			name = Debug;
+		};
+		DDC48E3A2C3D95B500F59221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = squirrel.SunCreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunCream.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SunCream";
+			};
+			name = Release;
+		};
+		DDC48E3C2C3D95B500F59221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = squirrel.SunCreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SunCream;
+			};
+			name = Debug;
+		};
+		DDC48E3D2C3D95B500F59221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = squirrel.SunCreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SunCream;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDC48E0C2C3D95B400F59221 /* Build configuration list for PBXProject "SunCream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC48E332C3D95B500F59221 /* Debug */,
+				DDC48E342C3D95B500F59221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC48E352C3D95B500F59221 /* Build configuration list for PBXNativeTarget "SunCream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC48E362C3D95B500F59221 /* Debug */,
+				DDC48E372C3D95B500F59221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC48E382C3D95B500F59221 /* Build configuration list for PBXNativeTarget "SunCreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC48E392C3D95B500F59221 /* Debug */,
+				DDC48E3A2C3D95B500F59221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC48E3B2C3D95B500F59221 /* Build configuration list for PBXNativeTarget "SunCreamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC48E3C2C3D95B500F59221 /* Debug */,
+				DDC48E3D2C3D95B500F59221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDC48E092C3D95B400F59221 /* Project object */;
+}
